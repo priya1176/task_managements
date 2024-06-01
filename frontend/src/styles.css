@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6d0d0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  
+  .container p {
+    color: #0b0202;
+    text-align: center;
+  }
+  .container1 h2{
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  
+  form {
+    width: 600px; 
+    border: 1px solid rgb(27, 4, 4); 
+    border-radius: 0%;
+    background-color: #d3d7f0;
+    margin: 0 auto;
+    padding: 20px; 
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    margin-bottom: 15px;
+    text-align: center; 
+  }
+  
+  form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    width: calc(60% - 20px); 
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4058b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items: center; 
+  }
+  
+  form button:hover {
+    background-color:  #6380f6;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 10px;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul li div {
+    margin-bottom: 5px;
+  }
+  
+  ul li span {
+    flex: 1;
+  }
+  
+  .task-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logout-btn {
+    float: right; 
+    background-color: #0056b3;
+    border-style: none;
+    padding: 5px 10px;
+    color: #ffffff;
+    align-items: center;
+  }
+  
+  .add-task-link {
+    display: block;
+    width: 12%;
+    margin-top: 20px;
+    text-align: center; 
+    font-weight: bold;
+    text-decoration: none;
+    border: 0px  #332c2c;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #4058b9;
+    justify-content: center;
+  }
+  
+  .add-task-link:hover {
+    color: #fafbfb;
+    border-color: #0056b3;
+  }
+  
+  .task-status {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .task-status span {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .error{
+    color:rgb(165, 41, 41);
+  }
