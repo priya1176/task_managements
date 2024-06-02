@@ -27,20 +27,13 @@ This project is a web application built using Django Rest Framework (DRF) for th
    cd your-repo/backend
    
 2 Create a virtual environment and activate it:
-
-Copy code
-python -m venv env
-source env\Scripts\activate
+   -python -m venv env
+   -source env\Scripts\activate
+   
 Install the required Python packages:
-
-Copy code
 pip install -r requirements.txt
+
 Set up the PostgreSQL database:
-
-Copy code
-Access PostgreSQL command line
-psql
-
 Create a database
 CREATE DATABASE yourdbname;
 
