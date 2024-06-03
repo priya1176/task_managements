@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 from urllib.parse import urlparse
-import sys
 import dj_database_url
 
 
@@ -35,8 +34,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React development server
-    "http://192.168.24.117:3000"
+    "http://localhost:3000"  # React development server
 ]
 # ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1, localhost").split(",")
 
